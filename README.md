@@ -97,20 +97,33 @@ INSERT INTO enrollment VALUES('s006', 'c007', '2024-03-04', 95, 98, 'A');
 
 ## query 15
 <img width="618" height="552" alt="1-1" src="https://github.com/user-attachments/assets/f2e444c5-cc28-4460-b817-6e1fb8b1ac1c" />
-<img width="616" height="543" alt="1-2" src="https://github.com/user-attachments/assets/c98d91a7-ec6e-49ae-91f5-c7d12a1bb4aa" />[codyssey query.sql](https://github.com/user-attachments/files/27795504/codyssey.query.sql)
-[codyssey insert into.sql](https://github.com/user-attachments/files/27795503/codyssey.insert.into.sql)
-[codyssey DB.sql](https://github.com/user-attachments/files/27795501/codyssey.DB.sql)
+
+<img width="616" height="543" alt="1-2" src="https://github.com/user-attachments/assets/c98d91a7-ec6e-49ae-91f5-c7d12a1bb4aa" />
+
 <img width="620" height="242" alt="6INDEX" src="https://github.com/user-attachments/assets/35a14d06-4ffa-4d06-84fb-e5cae9367bda" />
+
 <img width="622" height="441" alt="5-2delete문" src="https://github.com/user-attachments/assets/dfc1e76b-bb4f-4b09-85fb-adf507fd8ad9" />
+
 <img width="614" height="306" alt="5-1update문" src="https://github.com/user-attachments/assets/3be971db-6caa-4288-b188-ad75a7f35299" />
+
 <img width="756" height="429" alt="4" src="https://github.com/user-attachments/assets/d2ee8e07-499c-408c-bbc5-627a72d5aed8" />
+
 <img width="612" height="196" alt="3-3 avg문" src="https://github.com/user-attachments/assets/d631c843-0228-40ba-bdf4-b7cbaf3c41e2" />
+
 <img width="612" height="211" alt="3-2 sum문" src="https://github.com/user-attachments/assets/f4f79a85-4d0b-48df-8cad-6cec4b683ece" />
+
 <img width="616" height="147" alt="3-1count문" src="https://github.com/user-attachments/assets/9fbcd758-4239-4a64-b1e2-e6218dc5f4c6" />
+
 <img width="552" height="433" alt="2-4" src="https://github.com/user-attachments/assets/33f109f7-5c61-45c4-8643-6dd669d9e1b3" />
+
 <img width="684" height="410" alt="2-3" src="https://github.com/user-attachments/assets/b0fbb1e5-7f7b-4e9a-96bc-bfb7fbcd8ab7" />
+
 <img width="1405" height="381" alt="2-2" src="https://github.com/user-attachments/assets/9d992f18-3a66-44f3-96cb-810686f344e7" />
+
 <img width="1406" height="361" alt="2-1" src="https://github.com/user-attachments/assets/4a9f1f4c-9be6-4e71-8c0c-c0cb85cbc797" />
+
 <img width="617" height="539" alt="1-4" src="https://github.com/user-attachments/assets/606b5fc9-2a80-4a4c-8b3e-07dff251a387" />
+
 <img width="612" height="456" alt="1-3" src="https://github.com/user-attachments/assets/54ee0b5d-2e2d-491d-a1fd-c2d1c942de12" />
+
 
