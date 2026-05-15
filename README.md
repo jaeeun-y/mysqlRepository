@@ -14,7 +14,15 @@ CREATE TABLE student
      major VARCHAR(20) NULL,
      PRIMARY KEY (student_id),
      unique(phone));
-     
+
+CREATE TABLE professor
+	( pro_id CHAR(4) NOT NULL,
+		name VARCHAR(20) NOT NULL,
+        major VARCHAR(20) NULL,
+        email VARCHAR(50) unique,
+        phone CHAR(14),
+        primary key(pro_id));
+
 create table subject
 			( subject_id char(4) not null,
 			name varchar(20) not null,
@@ -36,13 +44,6 @@ CREATE TABLE enrollment
         FOREIGN KEY (student_id) REFERENCES student(student_id),
 		FOREIGN KEY (subject_id) REFERENCES subject(subject_id));
         
-CREATE TABLE professor
-	( pro_id CHAR(4) NOT NULL,
-		name VARCHAR(20) NOT NULL,
-        major VARCHAR(20) NULL,
-        email VARCHAR(50) unique,
-        phone CHAR(14),
-        primary key(pro_id));
         
 insert into subject
 values('c001', '데이터베이스', '126', '컴퓨터', 3, 'p004');
