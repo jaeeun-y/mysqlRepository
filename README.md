@@ -14,15 +14,7 @@ CREATE TABLE student
      major VARCHAR(20) NULL,
      PRIMARY KEY (student_id),
      unique(phone));
-
-CREATE TABLE professor
-	( pro_id CHAR(4) NOT NULL,
-		name VARCHAR(20) NOT NULL,
-        major VARCHAR(20) NULL,
-        email VARCHAR(50) unique,
-        phone CHAR(14),
-        primary key(pro_id));
-
+     
 create table subject
 			( subject_id char(4) not null,
 			name varchar(20) not null,
@@ -44,7 +36,56 @@ CREATE TABLE enrollment
         FOREIGN KEY (student_id) REFERENCES student(student_id),
 		FOREIGN KEY (subject_id) REFERENCES subject(subject_id));
         
-        
+CREATE TABLE professor
+	( pro_id CHAR(4) NOT NULL,
+		name VARCHAR(20) NOT NULL,
+        major VARCHAR(20) NULL,
+        email VARCHAR(50) unique,
+        phone CHAR(14),
+        primary key(pro_id));
+
+insert into professor
+values('p004','김계산','컴퓨터','kimcomputer@naver.com','010-1111-2222');
+insert into professor
+values('p003','나철학','철학','naphilo@gmail.com','010-2222-3333');
+insert into professor
+values('p002','심정보','정보통신','siminfo@gmail.com','010-3333-4444');
+insert into professor
+values('p001','국교양','교양학부','kookculture@naver.com','010-4444-5555');
+INSERT INTO professor 
+VALUES('p005','박연산','컴퓨터','parkcalc@naver.com','010-5555-6666');
+INSERT INTO professor 
+VALUES('p006','최통신','정보통신','choinet@gmail.com','010-6666-7777');
+INSERT INTO professor 
+VALUES('p007','정윤리','철학','jung@gmail.com','010-7777-8888');
+INSERT INTO professor 
+VALUES('p008','강영어','교양학부','kangeng@naver.com','010-8888-9999');
+INSERT INTO professor 
+VALUES('p009','조인공','컴퓨터','choai@naver.com','010-9999-0000');
+INSERT INTO professor 
+VALUES('p010','한수학','컴퓨터','hanmath@naver.com','010-1212-3434');
+
+INSERT INTO 학생
+VALUES('s001','김연아','서울 서초',4,23,'여','2002-01-01','010-1111-2222','컴퓨터');
+INSERT INTO 학생
+VALUES('s002','홍길동','DEFAULT',1,26,'2001-02-02','남',NULL,'통계');
+INSERT INTO 학생
+VALUES('s003','이승엽',NULL,3,30,'1997-03-03','남',NULL,'정보통신');
+INSERT INTO 학생
+VALUES('s004','이영애','경기 분당',2,NULL,NULL,'여', '010-4444-5555', '정보통신');
+INSERT INTO 학생
+VALUES('s005','송윤아','경기 과천',4,23,'2002-02-02','여','010-6666-7777','컴퓨터');
+INSERT INTO 학생
+VALUES('s006','홍길동','서울 종로',2,26,'2001-04-04','남','010-8888-9999','컴퓨터');
+INSERT INTO 학생
+VALUES('s007','신재은','서울 동작',1,22,'2005-10-19','여','010-1111-1019','컴퓨터');
+INSERT INTO student 
+VALUES('s008', '신재은', '부산시 해운대구', 2, 21, '2005-04-11', 'M', '010-1008-1008', '컴퓨터');
+INSERT INTO student 
+VALUES('s009', '신재금', '서울시 관악구', 4, 26, '2000-11-30', 'M', '010-1009-1009', '컴퓨터');
+INSERT INTO student 
+VALUES('s010', '신재동', '경기도 개성시', 3, 22, '2004-01-01', 'F', '010-1010-1010', '교양학부');
+
 insert into subject
 values('c001', '데이터베이스', '126', '컴퓨터', 3, 'p004');
 insert into subject
@@ -55,6 +96,16 @@ insert into subject
 values('c004', '철학개론', '117', '철학', 2, 'p003');
 insert into subject
 values('c005', '전공글쓰기', '120', '교양학부', 1, 'p001');
+INSERT INTO subject 
+VALUES('c006', '운영체제', '126', '컴퓨터', 3, 'p005');
+INSERT INTO subject 
+VALUES('c007', '네트워크', '135', '정보통신', 3, 'p006');
+INSERT INTO subject 
+VALUES('c008', '현대윤리', '118', '철학', 2, 'p007');
+INSERT INTO subject 
+VALUES('c009', '기초토익', '201', '교양학부', 2, 'p008');
+INSERT INTO subject 
+VALUES('c010', '알고리즘', '125', '컴퓨터', 3, 'p009');
 
 INSERT INTO enrollment
 VALUES('s001', 'c002', '2019-09-03', 93, 98, 'A');
@@ -72,15 +123,12 @@ insert into enrollment
 values('s003','c001', '2019-03-03', 81, 82, 'B');
 insert into enrollment
 values('s004','c002', '2018-03-05', 92, 95, 'A');
-
-insert into professor
-values('p004','김계산','컴퓨터','kimcomputer@naver.com','010-1111-2222');
-insert into professor
-values('p003','나철학','철학','naphilo@gmail.com','010-2222-3333');
-insert into professor
-values('p002','심정보','정보통신','siminfo@gmail.com','010-3333-4444');
-insert into professor
-values('p001','국교양','교양학부','kookculture@naver.com','010-4444-5555');
+INSERT INTO enrollment 
+VALUES('s008', 'c006', '2021-03-02', 85, 88, 'B');
+INSERT INTO enrollment 
+VALUES('s009', 'c010', '2022-03-02', 95, 97, 'A');
+INSERT INTO enrollment 
+VALUES('s010', 'c009', '2023-03-02', 80, 85, 'B');
 
 ```
 ---
