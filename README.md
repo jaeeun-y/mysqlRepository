@@ -65,19 +65,19 @@ VALUES('p009','조인공','컴퓨터','choai@naver.com','010-9999-0000');
 INSERT INTO professor 
 VALUES('p010','한수학','컴퓨터','hanmath@naver.com','010-1212-3434');
 
-INSERT INTO 학생
+INSERT INTO student
 VALUES('s001','김연아','서울 서초',4,23,'여','2002-01-01','010-1111-2222','컴퓨터');
-INSERT INTO 학생
+INSERT INTO student
 VALUES('s002','홍길동','DEFAULT',1,26,'2001-02-02','남',NULL,'통계');
-INSERT INTO 학생
+INSERT INTO student
 VALUES('s003','이승엽',NULL,3,30,'1997-03-03','남',NULL,'정보통신');
-INSERT INTO 학생
+INSERT INTO student
 VALUES('s004','이영애','경기 분당',2,NULL,NULL,'여', '010-4444-5555', '정보통신');
-INSERT INTO 학생
+INSERT INTO student
 VALUES('s005','송윤아','경기 과천',4,23,'2002-02-02','여','010-6666-7777','컴퓨터');
-INSERT INTO 학생
+INSERT INTO student
 VALUES('s006','홍길동','서울 종로',2,26,'2001-04-04','남','010-8888-9999','컴퓨터');
-INSERT INTO 학생
+INSERT INTO student
 VALUES('s007','신재은','서울 동작',1,22,'2005-10-19','여','010-1111-1019','컴퓨터');
 INSERT INTO student 
 VALUES('s008', '신재은', '부산시 해운대구', 2, 21, '2005-04-11', 'M', '010-1008-1008', '컴퓨터');
